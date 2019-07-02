@@ -21,3 +21,24 @@ header{
 	background-size: cover;
 	height: 400px;
 }
+
+section{
+	background-color: #b0946b;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Roboto', sans-serif;
+}
+
+div{
+	width: 40%;
+	text-align: justify;
+}
+
+div ul {
+	list-style-image: url(images/naruto.png);
+
+}
+
+ul li:nth-child(1){
+	color:#fff;
+}
