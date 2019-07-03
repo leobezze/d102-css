@@ -53,11 +53,27 @@ input::placeholder{
 input:focus{
 }
 
-footer div{
+footer{
+    align-items: center;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	height: 200px;
 	justify-content: center;
+
+}
+
+footer div:nth-child(1){
+	display: flex;
+
 	font-family: 'Roboto', sans-serif;
+
+}
+footer div:nth-child(2){
+	display: flex;
+	align-items: space-evenly;
+
+	font-family: 'Roboto', sans-serif;
+	width: 30%;
 
 }
 
